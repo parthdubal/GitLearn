@@ -47,6 +47,8 @@
 		D8BBB8571E5C5E6E00AD55ED /* GitLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BBB85B1E5C5E6E00AD55ED /* GitLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitLearnUITests.swift; sourceTree = "<group>"; };
 		D8BBB85D1E5C5E6E00AD55ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BBB8701E5C6CA700AD55ED /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		D8BBB8711E5C6CA700AD55ED /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,8 @@
 		D8BBB83A1E5C5E6E00AD55ED /* GitLearn */ = {
 			isa = PBXGroup;
 			children = (
+				D8BBB8701E5C6CA700AD55ED /* LICENSE */,
+				D8BBB8711E5C6CA700AD55ED /* README.md */,
 				D8BBB83B1E5C5E6E00AD55ED /* AppDelegate.swift */,
 				D8BBB83D1E5C5E6E00AD55ED /* ViewController.swift */,
 				D8BBB83F1E5C5E6E00AD55ED /* Main.storyboard */,
@@ -503,6 +507,7 @@
 				D8BBB8621E5C5E6E00AD55ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8BBB8631E5C5E6E00AD55ED /* Build configuration list for PBXNativeTarget "GitLearnTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				D8BBB8651E5C5E6E00AD55ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8BBB8661E5C5E6E00AD55ED /* Build configuration list for PBXNativeTarget "GitLearnUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				D8BBB8681E5C5E6E00AD55ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
