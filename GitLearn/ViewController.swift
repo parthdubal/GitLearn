@@ -6,6 +6,10 @@
 //  Copyright © 2017 Parth Dubal. All rights reserved.
 //
 
+/**
+ * Merge with master
+ **/
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -13,7 +17,26 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
         let n = 5
+
+        for i in 1...n
+        {
+            for _ in 0..<i
+            {
+                
+                print("*",separator:"",terminator:"");
+            }
+            for _ in 0..<n-i
+            {
+                print("#",separator:"",terminator:"");
+            }
+            print("");
+        }
+        
+        print("********");
+        
+
         for i in 1...n
         {
             for _ in 0..<i
