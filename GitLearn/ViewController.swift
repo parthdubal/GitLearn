@@ -6,6 +6,10 @@
 //  Copyright © 2017 Parth Dubal. All rights reserved.
 //
 
+/**
+ * Merge with master
+ **/
+
 import UIKit
 
 class ViewController: UIViewController {
